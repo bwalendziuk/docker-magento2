@@ -8,6 +8,7 @@ This repo is one container to run magento2 on docker. You should not use this on
 4. **docker run --name=whatever -d -p 8001:80 -p 3307:3306 -v /src/to/local/magento:/srv/www bwalendziuk/dmagento:1.0**
 5. Go to container **docker exec -it whatever bash**
 6. Install magento
+7. Go to http://localhost:8001
 
 # Database credentials on container
 1. Username: **admin**
